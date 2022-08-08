@@ -3,14 +3,20 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/menucss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/hr.css">
+  <link rel="stylesheet" href="css/footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>
 
-        </title>
+    <link rel="shortcut icon" href="logo.png" />
+
+    <title>
+Inchirieri   
+ </title>
 <style>
     .content {
-  min-height: 150vh;
+  min-height: 200vh;
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -27,9 +33,10 @@ display: flex;
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top:5%;
+  justify-content: flex-start;
+    margin-top:5%;
   width: 400px;
+  height: 790px !important;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5vmax;
@@ -51,6 +58,7 @@ margin-bottom: 10px;
   width: 400px;
   margin-top: -70px;
 }
+
 
 .about:hover {
   transform: scale(0.54);
@@ -123,12 +131,10 @@ margin-bottom: 10px;
 font-family: 'Oswald', sans-serif;
 }
 .descriere{
-    color: #ffcc01;
+    color: #ffffff;
   -webkit-text-stroke: #000;
 -webkit-text-stroke-width: 1px;
-font-family: 'Oswald', sans-serif;
-
-  font-size: 1.1vmax;
+  font-size: 1.4vmax;
 height: auto;
 }
 .crossfade > figure {
@@ -137,7 +143,7 @@ height: auto;
   background-size: cover;
   background-position: center center;
   color: transparent;
-  height: 177%;
+  height: 200%;
   margin-top: 0%;
   margin-left: 0px;
   opacity: 0;
@@ -252,10 +258,10 @@ hr + h2::after {
   width: 90%;
 }
 .descriere{
-  font-size: 20px;
+  font-size: 23px;
 }
 .title{
-  font-size: 23px;
+  font-size: 25px;
 }
 .numele{
   font-size: 40px !important;
@@ -263,6 +269,18 @@ hr + h2::after {
 .crossfade > figure {
   height: 400vh;
 }
+}
+.footer .icons a {
+padding: 0px;
+}
+a:link, a:visited {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+scale: 1;
+}
+a:hover{
+  scale: 1.05;
+  transition: all 0.2s ease-in-out;
 }
 </style>
 </head>
@@ -275,7 +293,7 @@ hr + h2::after {
      <figure></figure>
    </div> 
     <a class="anchor" name="nav-8"></a>
-    <section class="nav-8">
+    <section class="nav-8" id="menium">
   
      <div class="numeL">       
      <img src="logo.png" alt="">
@@ -292,7 +310,7 @@ hr + h2::after {
       <a class="item" href="inchirieri.html">
         <div data-text="Caiac,canoe,dragon boat" class="linktext">Inchirieri</div>
       </a>
-      <a class="item" href="#nav-8">
+      <a class="item" href="evenimente.html">
         <div data-text="Pentru nevoile tale" class="linktext">Evenimente</div>
       </a>
      
@@ -301,83 +319,135 @@ hr + h2::after {
       </a>
     </nav> 
     </section>
-   
+    <nav role="navigation">
+      <div id="menu1Toggle" style="display:none;">
+        <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+      <ul id="menu1">
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="despre.html">Despre noi</a></li>
+        <li><a href="inchirieri.html">Inchirieri</a></li>
+        <li><a href="evenimente.html">Evenimente</a></li>
+        <li><a href="contact.html">Contact</a></li>
+  
+      </ul>
+    </div>
+    </nav>
     
     <div class="content">
       <hr >
     <h2 style=" margin-top: 150px;">Preturi</h2>
 
         <div class="content-text">
-          <div class="person">
-        <a href="caiac.html"> <div class="about" >
+         <a href="caiac.html">  <div class="person">
+        <div class="about" >
               <div class="about-inner" >
                <img class="circle" src="barci/despre2.jpg" >
               </div>
-            </div></a>
+            </div>
             <div class="numele">Caiac</div>
             <div class="title">De la 70 RON</div>
             <div class="descriere" id="descriere">
               <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus veniam eligendi facere maxime. Quia quas minus fuga, explicabo ipsum libero provident veniam. Mollitia, ullam? Labore odio enim vel? Consequuntur.              </p>
-            </div>
+                Barcă anume construită pentru sport și curse, ascuțită la capete și acoperită cu pînzâ impermeabilă care lasă loc liber numai vîslașului; se conduce cu una sau cu două padele.            </div>
           </div>
-          <div class="person">
-           <a href="canoe.html"> <div class="about" >
+          </a>
+     <a href="canoe.html">   <div class="person">
+            <div class="about" >
               <div class="about-inner" >
-                <img class="circle" src="barci/despre.jpg" >
+                <img class="circle" src="canoe/9.jpg" >
               </div>
-            </div></a>
+            </div>
             <div class="numele">Canoe</div>
             <div class="title">De la 90 RON</div>
             <div class="descriere" id="descriere">
               <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus veniam eligendi facere maxime. Quia quas minus fuga, explicabo ipsum libero provident veniam. Mollitia, ullam? Labore odio enim vel? Consequuntur.              </p>
-            </div>
+                O canoe este o navă de apă îngustă ușoară , în mod obișnuit ascuțită la ambele capete și deschisă deasupra, propulsată de unul sau mai mulți vâsletori așezați sau îngenunchiați, îndreptați spre direcția de mers și folosind o paletă cu o singură lamă .            </div>
           </div>
+          </a>            
+          <a href="dragon.html">
+
           <div class="person">
-            <a href="dragon.html">
             <div class="about" >
               <div class="about-inner" >
                 <img class="circle" src="barci/4.jpg" >
               </div>
-            </div></a>
+            </div>
             <div class="numele">Dragon Boat</div>
             <div class="title">De la 50 RON</div>
             <div class="descriere" id="descriere">
               <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus veniam eligendi facere maxime. Quia quas minus fuga, explicabo ipsum libero provident veniam. Mollitia, ullam? Labore odio enim vel? Consequuntur.              </p>
-            </div>
+                Dragon Boat este o barca lunga de 12 metri, stabilă, în care vâslesc pana la 20 de persoane, de o parte și de alta a acesteia.            </div>
           </div>
-        </div>
+        </a>
+        </div> <a href="sup.html">
         <div class="content-text"> 
             <div class="person">
-            <a href="sup.html"><div class="about" >
+           <div class="about" >
               <div class="about-inner" >
                 <img class="circle" src="barci/5.jpg" >
               </div>
-            </div></a>
+            </div>
             <div class="numele">S.U.P</div>
             <div class="title">De la 60 RON</div>
             <div class="descriere" id="descriere">
               <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus veniam eligendi facere maxime. Quia quas minus fuga, explicabo ipsum libero provident veniam. Mollitia, ullam? Labore odio enim vel? Consequuntur.              </p>
-            </div>
-            </div>
-            <div class="person">
-           <a href="barca.html"> <div class="about" >
+                Standup paddleboarding ( SUP ) este un sport acvatic născut din surfing cu rădăcini moderne în Hawaii . Stand up paddleboarders stau pe scânduri care plutesc pe apă și folosesc o paletă pentru a se propulsa prin apă.            </div>
+            </div></a>
+            <a href="barca.html"> <div class="person">
+           <div class="about" >
               <div class="about-inner" >
                 <img class="circle" src="barci/mirena.jpg" >
               </div>
-            </div></a>
+            </div>
             <div class="numele">Barca cu Motor</div>
-            <div class="title">xxx RON</div>
+            <div class="title">De la 30 RON</div>
             <div class="descriere" id="descriere">
               <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus veniam eligendi facere maxime. Quia quas minus fuga, explicabo ipsum libero provident veniam. Mollitia, ullam? Labore odio enim vel? Consequuntur.              </p>
-            </div>
+                Motorul outboard sau motorul de barcă este un motor exterior cu ardere internă montat la pupă și folosit ca sistem de propulsie pentru ambarcațiuni.            </div>
             </div>
            
         
-        </div>
+        </div></a>
     </div>
 </body>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="despre">
+      <span>CANOE T URS – YOUR PERFECT GETAWAY
+</span> TE INVITĂM SĂ VÂSLEŞTI ALĂTURI DE CANOE TURS, PE UNUL DINTRE CELE MAI FRUMOASE BARAJE DIN ROMÂNIA, LACUL VIDRARU, SITUAT LA COTA 830, DE.UNDE POTI ADMIRA PEISAJUL SUPERB, ANIMALELE SALBATICE ŞI MULTE ATRACTII TURISTICE: CASCADA CALUGARITA, CLAIA DE PIATRA ETC..
+    </p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span> Transfăgărășan, Arefu, Romania</span>Arges, Romania</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> (+00) 0000 000 000</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> office@company.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <h2> Canoe<span> T'URS</span></h2>
+    <p class="menu">
+      | <a href="index.html">Acasă</a> |
+    <a href="despre.html">Despre noi</a> |
+    <a href="inchirieri.html">Inchirieri</a> |
+    <a href="evenimente.html">Evenimente</a> |
+    <a href="contact.html">Contact</a> |
+    </p>
+    <p class="name"> Canoe T'URS &copy; 2016</p>
+  </div>
+</footer>
+</html>
